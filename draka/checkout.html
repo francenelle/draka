@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8" />
+        <title>CoSecu || Responsive HTML 5 Template</title>
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="preloader"></div>
+            <!--====================================================================Start Header area=====================================================================-->
+            <header class="main-header">
+                <div class="header-upper">
+                    <div class="container clearfix">
+                        <div class="header-inner d-lg-flex align-items-center">
+                            <div class="logo-outer d-flex align-items-center">
+                                <div class="logo">
+                                    <a href="index.html" style="max-width: 1px;"><img src="assets/images/finallog.png" alt="" title="" /></a>
+                                </div>
+                            </div>
+                            <div class="nav-outer clearfix ml-lg-auto">
+                                <nav class="main-menu navbar-expand-lg">
+                                    <div class="navbar-header clearfix">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                                    </div>
+                                    <div class="navbar-collapse collapse clearfix">
+                                        <ul class="navigation clearfix">
+                                            <li class="current"><a href="index.html">Home</a></li>
+                                            <li class="dropdown">
+                                                <a href="#">Security</a>
+                                                <ul>
+                                                    <li><a href="service.html"><strike>Personnal</strike> </a></li>
+                                                    <li><a href="security_home.html">Home</a></li>
+                                                    <li><a href="service.html">Business</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#">Logiciel</a>
+                                                <ul>
+                                                    <li><a href="antivirus_home.html">Antivirus-Home</a></li>
+                                                    <li><a href="antivirus_business.html">Antivirus-Business</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#">Mobile apps</a>
+                                                <ul>
+                                                    <li><a href="team.html">team</a></li>
+                                                    <li><a href="coming-soon.html">cominig soon</a></li>
+                                                    <li><a href="error.html">404 page</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#">shop</a>
+                                                <ul>
+                                                    <li><a href="shop.html">all shop</a></li>
+                                                    <li><a href="shop-details.html">shop details</a></li>
+                                                    <li><a href="cart.html">cart page</a></li>
+                                                    <li><a href="checkout.html">checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="contact.html">support</a>
+                                                <ul>
+                                                    <li><a href="contact.html">contact support</a></li>
+                                                    <li><a href="shop-details.html">Activation help</a></li>
+                                                    <li><a href="download_center.html">Downloads center</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-btn">
+                                <div class="cart">
+                                    <a href="#"><i class="flaticon-shopping-cart"></i></a>
+                                </div>
+                                <button type="button" class="btn btn-block btn-warning btn-lg">Free dropdown</button>
+                                            
+                                <div class="nav-search">
+                                    <form>
+
+                                         <button type="submit" id="btn_search_site" class="flaticon-magnifying-glass" onmouseover="mouseOver()" onmouseout="mouseOut()"></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--====================================================================End Header area=====================================================================--><!--====================================================================Start Banner Section=====================================================================-->
+            <section class="banner-section">
+                <div class="container">
+                    <div class="banner-inner text-center pt-55">
+                        <h2 class="page-title">Checkout</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <!--====================================================================End Banner Section=====================================================================--><!--====================================================================Start Checkout Page=====================================================================-->
+            <section class="checkout-page mt-150 rmt-100 mb-150 rmb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-6">
+                            <div class="checkout-form-wrap rmb-50">
+                                <div class="cart-title"><h3>Billing Details</h3></div>
+                                <form id="checkout-form" name="checkout-form" class="checkout-form" action="sendmail.php" method="POST">
+                                    <div class="row clearfix">
+                                        <div class="col-md-6">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="First Name" required /></div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="Last Name" required /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="Company Name" /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <select class="form-control" name="select1">
+                                                    <option value="value1">Country</option>
+                                                    <option value="value2">United States</option>
+                                                    <option value="value3">United Kingdom</option>
+                                                    <option value="value4">Qatar</option>
+                                                    <option value="value5">Russia</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="Street Address" required /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="Town City" required /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <select class="form-control" name="select2">
+                                                    <option value="value1">District</option>
+                                                    <option value="value2">Dhaka</option>
+                                                    <option value="value3">Khulna</option>
+                                                    <option value="value4">Barisal</option>
+                                                    <option value="value5">Rsjshahi</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="Postal Code / Zip Code" required /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input type="text" class="form-control" placeholder="Phone Number" /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input type="email" class="form-control" placeholder="Email" required /></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group"><textarea class="form-control mb-0" placeholder="Order Note" rows="8" required></textarea></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="checkout-cart-total clearfix">
+                                <div class="cart-title"><h3>Cart Total</h3></div>
+                                <div class="total-item-wrap clearfix">
+                                    <div class="total-item"><span class="title">Nest Cam IQ Outdoor</span> <span class="price">100</span></div>
+                                    <div class="total-item"><span class="title">Night Vision Cameras</span> <span class="price">240</span></div>
+                                    <div class="total-item"><span class="title">Shipping Cost</span> <span class="price">20</span></div>
+                                    <div class="total-item discount"><span class="title">Discount</span> <span class="price">20</span></div>
+                                    <div class="total-item total"><span class="title">Total</span> <span class="price">340</span></div>
+                                </div>
+                                <ul id="accordionExample" class="mb-40">
+                                    <li class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="methodone" name="defaultExampleRadios" checked />
+                                        <label class="custom-control-label" for="methodone" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">Direct Bank Transfer</label>
+                                        <div id="collapseOne" class="collapse show" data-parent="#accordionExample" style="">
+                                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+                                        </div>
+                                    </li>
+                                    <li class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="methodtwo" name="defaultExampleRadios" />
+                                        <label class="custom-control-label collapsed" for="methodtwo" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">Check payments</label>
+                                        <div id="collapseTwo" class="collapse" data-parent="#accordionExample" style="">
+                                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+                                        </div>
+                                    </li>
+                                    <li class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="methodthree" name="defaultExampleRadios" />
+                                        <label class="custom-control-label collapsed" for="methodthree" data-toggle="collapse" data-target="#collapsethree" aria-controls="collapsethree">Cash On Delivery</label>
+                                        <div id="collapsethree" class="collapse" data-parent="#accordionExample" style="">
+                                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="checkout-btn text-center"><a href="cart.html" class="theme-btn no-shadow br-10 mb-25 w-100">Update Cart</a> <button class="theme-btn br-10 w-100">Place Order</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--====================================================================End Checkout Page=====================================================================--><!--====================================================================Start Footer Section=====================================================================-->
+            <footer class="footer-section bg-black pt-135 rpt-85">
+                <div class="container text-white">
+                    <div class="footer-inner text-center">
+                        <a href="index.html"><img src="assets/images/footer-logo.png" class="mb-20" alt="Footer Logo" /></a>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                        <span class="line mb-10"></span>
+                        <div class="social-style-one d-block">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-google"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="copyright pl-10 pr-10 pt-30 pb-10 mt-100 d-flex">
+                        <p>Copyright@2019 Coui. All rights reserved</p>
+                        <ul class="ml-lg-auto rmb-15">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!--====================================================================End Footer Section=====================================================================-->
+        </div>
+        <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.simpleLoadMore.min.js"></script>
+        <script src="assets/js/jquery.magnify.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/appear.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script>
+            function mouseOver(){
+                $("#btn_search_site").append('<input type="text" placeholder="Search" class="searchbox" required />');
+                
+            }
+            function mouseOut(){
+                $(".searchbox").hide();
+                
+            }
+        </script>
+    </body>
+</html>

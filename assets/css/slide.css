@@ -1,0 +1,29 @@
+span.first_partie {
+   
+    font-size: 1.3em;
+    color: white;
+}
+span.second_partie {
+  
+    font-size: 1.3em;
+    color: white;
+}
+
+h6.troisieme_partie {
+    color: white;
+    font-size: 1.4em;
+}
+
+.box_droit {
+    margin-bottom: 6em;
+    float: right;
+}
+
+.box_gauche {
+    margin-bottom: 6em;
+    float: left;
+}
+
+ul.ma_liste {
+    text-align: left;
+}
